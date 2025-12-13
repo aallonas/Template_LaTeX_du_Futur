@@ -1,0 +1,43 @@
+\documentclass{CLASS_INSA_MIQ}
+
+\begin{document}
+
+% Remplissage du template
+\titre{Template \LaTeX}
+
+\cours{Exemple de rapport}
+
+\Encadrants{NOM Prénom\\
+        NOM Prénom}
+
+\auteurs{NOM Prénom \\
+        NOM Prénom\\
+        NOM Prénom}
+        
+\auteursPP{NOM-NOM}
+
+%insertion de l'entète, des tables des matières et figures
+\entete 
+\pagedegarde
+\tabledesmatieres
+%\tabledesfigures
+
+% Corps du rapport
+\chapter*{Introduction} 
+\input{Chapitres/Introduction}
+\addcontentsline{toc}{chapter}{Introduction}
+
+\chapter{Partie 1}
+\input{Chapitres/Partie_1}
+
+\chapter{Partie 2}
+\input{Chapitres/Partie_2}
+
+\chapter{Partie 3}
+\input{Chapitres/Partie_3}
+
+\chapter*{Conclusion}
+\input{Chapitres/Conclusion}
+\addcontentsline{toc}{chapter}{Conclusion}
+
+\end{document}
