@@ -3,12 +3,12 @@
 % alexandre.allonas@insa-strasbourg.fr
 % 06 38 40 47 18
 %
-% Dernière MAJ: 09/11/2024
+% Dernière MAJ: 16/02/2026
 
 
 % Commandes spécifique .cls
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{CLASS_INSA_MIQ}[09/11/2024 Classe LaTeX pour MIQ, V1.0]
+\ProvidesClass{CLASS_INSA_MIQ}[16/02/2026 Classe LaTeX pour MIQ, V1.0]
 
 
 % Classe modèle
@@ -230,6 +230,12 @@
 \usepackage{comment}
 \usepackage{fancyhdr}
 \usepackage{lipsum}
+\usepackage[
+  backend=biber,
+  style=numeric,
+  maxbibnames=99,
+  maxcitenames=99
+]{biblatex}
 \newclipboard{myclipboard}
 \usepackage[hidelinks]{hyperref}
 
