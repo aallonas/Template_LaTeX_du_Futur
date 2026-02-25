@@ -233,6 +233,7 @@
 \usepackage[
   backend=biber,
   style=numeric,
+  sorting=none,
   maxbibnames=99,
   maxcitenames=99
 ]{biblatex}
