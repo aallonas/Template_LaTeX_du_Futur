@@ -25,8 +25,6 @@
 \RequirePackage{siunitx}
 \RequirePackage{float}
 \RequirePackage{graphicx}
-\RequirePackage[justification=centering]{caption}
-\RequirePackage{subcaption}
 \RequirePackage{wallpaper}
 \RequirePackage{nomencl}
 \RequirePackage{tikz}
@@ -219,14 +217,12 @@
 \usepackage{eso-pic,xcolor,graphicx}
 \usepackage{blindtext}
 \usepackage{wrapfig}
-\usepackage{caption}
 \usepackage{enumitem}
 \usepackage{pifont}
 \usepackage{changepage}
 \usepackage{listings}
 \usepackage{minted}
 \usepackage{clipboard}
-\usepackage{cite}
 \usepackage{comment}
 \usepackage{fancyhdr}
 \usepackage{lipsum}
